@@ -1,0 +1,164 @@
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.socials {
+    width: 100px;
+	margin-right: 20px;
+}
+
+/* Menu Bar Style */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li.right-align {
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Offers & Promotions Style */
+.offers {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.offer-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 250px;
+    border-radius: 8px;
+    text-align: center;
+	font-weight: bold;
+	background-image: url("sales.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* List Style */
+.listed {
+    padding: 10px;
+}
+
+/* Hotels List Style */
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotel {
+    width: calc(15% - 15px);
+    margin-bottom: 10px;
+    text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.hotel p {
+    font-weight: bold;
+}
+
+/* Location List Style */
+.location-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.location {
+    width: calc(15% - 15px);
+    margin-bottom: 10px;
+    text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.location p {
+    font-weight: bold;
+}
+
+/* Contact Info Style */
+.contact-info {
+    padding: 20px;
+}
+
+/* FAQ styles */
+.faq {
+    padding: 20px;
+}
+
+
+/* About Us Style */
+.about-us {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-left img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.section-right {
+    width: 50%;
+	text-align: center;
+}
+
+/* Footer Style */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
